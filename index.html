@@ -18,13 +18,20 @@
             <a-asset-item id="makery" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Army%20Helm.gltf"></a-asset-item>
         </a-assets>
         <a-marker type='pattern' url='https://cdn.rawgit.com/JakeBrose/arToolkitTest/master/targets/targetone.patt' id="lee">
-
-
+            <a-box position="-0.3 0.1 0" id="off" data-state="off" data-lamp-id="Leeslamp" cursor-listener width="0.2" height="0.05"
+                rotation="0 0 0" color="#F03F35"></a-box>
+            <a-box position="0 0.1 0" id="cool" width="0.2" data-lamp-id="Leeslamp" cursor-listener data-state="on" height="0.1" rotation="0 0 0"
+                color="#F5FAFA"></a-box>
+            <a-box position="0.3 0.1 0" id="normal" width="0.2" data-lamp-id="Leeslamp" cursor-listener data-state="on" height="0.1"
+                rotation="0 0 0" color="#F8EAC9"></a-box>
+            <a-box position="0.6 0.1 0" id="warm" width="0.2" data-lamp-id="Leeslamp" cursor-listener data-state="on" height="0.1" rotation="0 0 0"
+                color="#E7CB71"></a-box>
+<!-- 
             <a-box id="leeBox" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Lee_Kebler_BlackBox_Realities.jpg" depth=".01" height="1"
                 width="0.5">
                 <a-sound play-on-scan-lee id="leeSound" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Slythern.mp3" autoplay="false"
                     loop="true" position="0 2 5"></a-sound>
-            </a-box>
+            </a-box> -->
 
         </a-marker>
 
