@@ -11,43 +11,22 @@
             <a-asset-item id="helm-obj" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/helmob.obj"></a-asset-item>
             <a-asset-item id="helm-mtl" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/helm.mtl"></a-asset-item>
 
-            <a-asset-item id="drew-obj" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Drew_Plane3.obj"></a-asset-item>
-            <a-asset-item id="drew-mtl" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Drew_Plane3.mtl"></a-asset-item>
+<a-asset-item id="jake-obj" src='https://cdn.rawgit.com/JakeBrose/arToolkitTest/master/images/tinker.obj'>
+    </a-asset-item>
+<a-asset-item id="drew-mtl" src="https://cdn.rawgit.com/JakeBrose/arToolkitTest/master/images/obj.mtl"></a-asset-item>
 
             <a-asset-item id="makery" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Army%20Helm.gltf"></a-asset-item>
         </a-assets>
         <a-marker type='pattern' url='https://cdn.rawgit.com/JakeBrose/arToolkitTest/master/targets/targetdemo.patt' id="lee">
-            <a-box position="-0.3 0.1 0" id="off" data-state="off" data-lamp-id="Leeslamp" cursor-listener width="0.2" height="0.05"
-                rotation="0 0 0" color="#F03F35"></a-box>
-            <a-box position="0 0.1 0" id="cool" width="0.2" data-lamp-id="Leeslamp" cursor-listener data-state="on" height="0.1" rotation="0 0 0"
-                color="#F5FAFA"></a-box>
-            <a-box position="0.3 0.1 0" id="normal" width="0.2" data-lamp-id="Leeslamp" cursor-listener data-state="on" height="0.1"
-                rotation="0 0 0" color="#F8EAC9"></a-box>
-            <a-box position="0.6 0.1 0" id="warm" width="0.2" data-lamp-id="Leeslamp" cursor-listener data-state="on" height="0.1" rotation="0 0 0"
-                color="#E7CB71"></a-box>
-<!-- 
-            <a-box id="leeBox" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Lee_Kebler_BlackBox_Realities.jpg" depth=".01" height="1"
-                width="0.5">
-                <a-sound play-on-scan-lee id="leeSound" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Slythern.mp3" autoplay="false"
-                    loop="true" position="0 2 5"></a-sound>
-            </a-box> -->
-
+            <a-entity obj-model="#jake-obj" mtl="drew-mtl" scale="1 1 1"></a-entity>
         </a-marker>
-
-        <!-- define a simple camera -->
         <a-entity camera>
-
-
         </a-entity>
     </a-scene>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <!-- <div class="navBack">
-        <p>
-            <a href="http://localhost:8080/#!/items/list">Profile</a>
-        </p>
-    </div> -->
 </body>
 
 
 </html>
+<!-- /images/tinker.obj -->
