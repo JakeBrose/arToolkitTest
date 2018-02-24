@@ -18,7 +18,10 @@
             <a-asset-item id="makery" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Army%20Helm.gltf"></a-asset-item>
         </a-assets>
         <a-marker type='pattern' url='https://cdn.rawgit.com/JakeBrose/arToolkitTest/master/targets/targetdemo.patt' id="lee">
-            <a-entity obj-model="#jake-obj" mtl="drew-mtl" scale="1 1 1"></a-entity>
+            <a-entity 
+            obj-model="obj: #jake-obj; mtl: #drew-mtl"
+            scale="0.1 0.1 0.1"
+            position="0 1 0" ></a-entity>
         </a-marker>
         <a-entity camera>
         </a-entity>
