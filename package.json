@@ -1,0 +1,23 @@
+{
+  "name": "arToolkitDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeBrose/arToolkitTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeBrose/arToolkitTest/issues"
+  },
+  "homepage": "https://github.com/JakeBrose/arToolkitTest#readme",
+  "devDependencies": {
+    "aframe-mouse-cursor-component": "^0.5.2"
+  }
+}
