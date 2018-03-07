@@ -21,7 +21,7 @@
             <a-asset-item id="makery" src="https://cdn.rawgit.com/Dmart331/_Arjs/master/Army%20Helm.gltf"></a-asset-item>
         </a-assets>
         <a-marker type='pattern' url='https://cdn.rawgit.com/JakeBrose/arToolkitTest/master/targets/targetdemo.patt' id="lee">
-            <a-entity click="https://www.google.com" obj-model="obj: #jake-obj; mtl: #jake-mtl" scale="0.04 0.04 0.04" position="0 -1 0"></a-entity>
+            <a-entity onClick="goToGoogle()" click obj-model="obj: #jake-obj; mtl: #jake-mtl" scale="0.04 0.04 0.04" position="0 -1 0"></a-entity>
         </a-marker>
         <a-entity camera>
         </a-entity>
@@ -29,6 +29,7 @@
 </a>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 
